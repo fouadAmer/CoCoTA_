@@ -1,5 +1,8 @@
+
+##**Description**
 This software, named CoCoTA (Quick, "Co"nsistent and "Co"rrect "T"ext "A"nnotations) is an active learning based text annotation tool. More specifically, the software is target sequential annotation tasks such Part-of-Activity Tagging as described by Amer and Golparvard (2019).
 
+##**License**
 This software is relased under an MIT License. If you are using this software for a scientific contribution, please include the following citation:
 
 {
@@ -9,13 +12,15 @@ This software is relased under an MIT License. If you are using this software fo
 } 
 
 
-**Requirements**
+##**Requirements**
+
 All the dependencies can be installed using the following commands:
 - Start a terminal
 - cd cocota
 - pip install -r requirements.txt
 
-**Usage**
+##**Usage**
+
 To run the software:
 - python3 annotate.py
 
