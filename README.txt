@@ -1,11 +1,5 @@
-
-Author: Fouad Amer
-Date: August, 2019
-
-Description:
 This software, named CoCoTA (Consistent and Correct Text Annotations) is an active learning based text annotation tool. More specifically, the software is target sequential annotation tasks such Part-of-Activity Tagging as described by Amer and Golparvard (2019).
 
-This software is rebased under an MIT license. 
 If you are using this software for a scientific contribution, please include the following citation:
 
 {
