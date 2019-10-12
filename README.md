@@ -26,3 +26,6 @@ All the dependencies can be installed using the following commands:
 ## **Usage**
 ### Starting a New Project
 ![](https://github.com/fouadAmer/CoCoTA_/blob/master/guide_visuals/new_project.gif)
+
+### Annotating
+![](https://github.com/fouadAmer/CoCoTA_/blob/master/guide_visuals/annotation.gif)
