@@ -58,7 +58,7 @@ class ChooseNameWindow(QGraphicsObject):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "New Project Name"))
         self.buttonSave.setText(_translate("Form", "Save"))
         self.buttonCancel.setText(_translate("Form", "Cancel"))
         self.label.setText(_translate("Form", "Please choose a name for your new annotation project:"))
