@@ -291,7 +291,13 @@ class GuiSupervisedLabeler():
 
 		# set_trace()
 		previous_labels = self.project.input_labels_dict[self.project.review_schedule][str(self.project.review_activity_index)]
-		self.updatePA(self.review_activity, self.project.review_labels, self.project.review_token_index, previous_labels[self.project.review_token_index])
+		
+		# print(previous_labels)
+		# print(self.project.review_token_index)
+		# print(self.review_activity)
+
+		if len(previous_labels)>self.project.review_token_index:
+			self.updatePA(self.review_activity, self.project.review_labels, self.project.review_token_index, previous_labels[self.project.review_token_index])
 
 		# print(self.project.repeat_list)
 		if self.project.review_token_index == len(self.review_activity)-1:
