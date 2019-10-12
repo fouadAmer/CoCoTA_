@@ -1,6 +1,6 @@
 
 ## **Description**
-This software, named CoCoTA (Quick, "Co"nsistent and "Co"rrect "T"ext "A"nnotations) is an active learning based text annotation tool. More specifically, the software is target sequential annotation tasks such Part-of-Activity Tagging as described by Amer and Golparvard (2019).
+This software, named CoCoTA (Quick, **Co**nsistent and **Co**rrect **T**ext **A**nnotations) is an active learning based text annotation tool. More specifically, the software is target sequential annotation tasks such Part-of-Activity Tagging as described by Amer and Golparvard (2019).
 
 ## **License**
 This software is relased under an MIT License. If you are using this software for a scientific contribution, please include the following citation:
