@@ -18,9 +18,11 @@ All the dependencies can be installed using the following commands:
 - cd cocota
 - pip install -r requirements.txt
 
-## **Usage**
-
-To run the software:
+## **Running the software**:
 - python3 annotate.py
 
 ![](https://github.com/fouadAmer/CoCoTA_/blob/master/guide_visuals/starting.gif)
+
+## **Usage**
+### Starting a New Project
+![](https://github.com/fouadAmer/CoCoTA_/blob/master/guide_visuals/new_project.gif)
