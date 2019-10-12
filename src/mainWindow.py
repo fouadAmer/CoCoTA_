@@ -105,6 +105,7 @@ class ui_CoCoTAMainWindow(object):
             self.buttonSkipped.setEnabled(False)
             self.buttonModifyPrevious.setEnabled(False)
             self.loadAssistant.setEnabled(False)
+            self.buttonExportAnnotations.setEnabled(False)
 
         else:
             self.setupAnnotationWindow()
@@ -173,6 +174,7 @@ class ui_CoCoTAMainWindow(object):
             self.buttonSkipped.setEnabled(True)
             self.buttonModifyPrevious.setEnabled(True)
             self.loadAssistant.setEnabled(True)
+            self.buttonExportAnnotations.setEnabled(True)
             self.setupAnnotationWindow()       
 
 

@@ -67,12 +67,13 @@ class GuiSupervisedLabeler():
 		self.project.current_schedule_index = self.schedules.index(self.project.current_schedule)
 		
 		self.current_activity = self.project.input_sequences_dict[self.project.current_schedule][str(self.project.current_activity_index)]
-		self.project.current_token_index = 0
+		if self.project.current_token_index == None:
+			self.project.current_token_index = 0
 		self.current_token = self.current_activity[self.project.current_token_index]
 
 		self.project.current_prediction = self.project.probabilisticAssistant.predict(self.current_activity, self.project.current_token_index)
 
-		self.project.current_labels = []
+		# self.project.current_labels = []
 
 		self.updateGui()
 		self.project.save()
@@ -286,20 +287,10 @@ class GuiSupervisedLabeler():
 			return False
 
 	def updateStateReview(self):
-		# self.project.probabilisticAssistant.update(self.review_activity, self.project.review_token_index, self.project.current_tag)
-		# self.project.save()
-
-		# set_trace()
-		previous_labels = self.project.input_labels_dict[self.project.review_schedule][str(self.project.review_activity_index)]
 		
-		# print(previous_labels)
-		# print(self.project.review_token_index)
-		# print(self.review_activity)
+		previous_labels = self.project.input_labels_dict[self.project.review_schedule][str(self.project.review_activity_index)]
+		self.updatePA(self.review_activity, self.project.review_labels, self.project.review_token_index, previous_labels[self.project.review_token_index])
 
-		if len(previous_labels)>self.project.review_token_index:
-			self.updatePA(self.review_activity, self.project.review_labels, self.project.review_token_index, previous_labels[self.project.review_token_index])
-
-		# print(self.project.repeat_list)
 		if self.project.review_token_index == len(self.review_activity)-1:
 
 			# previous_labels = self.project.input_labels_dict[self.project.review_schedule][str(self.project.review_activity_index)]
