@@ -9,13 +9,14 @@ This software is relased under an MIT License. If you are using this software fo
 } 
 
 
+**Requirements**
+All the dependencies can be installed using the following commands:
+- Start a terminal
+- cd cocota
+- pip install -r requirements.txt
 
-In order to use the software:
-1- Make sure to install all the dependencies by running the following commands:
+**Usage**
+To run the software:
+- python3 annotate.py
 
-cd cocota
-pip install -r requirements.txt
-
-
-2- run the program by running the following command:
-python3 annotate.py
+![](https://github.com/fouadAmer/CoCoTA_/blob/master/guide_visuals/starting.gif)
