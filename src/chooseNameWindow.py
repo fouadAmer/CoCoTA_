@@ -32,18 +32,19 @@ class ChooseNameWindow(QGraphicsObject):
     def setupUi(self, Form, initializationWindow):
         self.Form = Form
         Form.setObjectName("Form")
-        Form.resize(479, 142)
+        x_scale, y_scale = initializationWindow.screenDimensions
+        Form.resize(479*x_scale, 142*y_scale)
         self.textEdit = QtWidgets.QLineEdit(Form)
-        self.textEdit.setGeometry(QtCore.QRect(30, 50, 430, 31))
+        self.textEdit.setGeometry(QtCore.QRect(30*x_scale, 50*y_scale, 430*x_scale, 31*y_scale))
         self.textEdit.setObjectName("textEdit")
         self.buttonSave = QtWidgets.QPushButton(Form)
-        self.buttonSave.setGeometry(QtCore.QRect(240, 100, 100, 25))
+        self.buttonSave.setGeometry(QtCore.QRect(240*x_scale, 100*y_scale, 100*x_scale, 25*y_scale))
         self.buttonSave.setObjectName("buttonSave")
         self.buttonCancel = QtWidgets.QPushButton(Form)
-        self.buttonCancel.setGeometry(QtCore.QRect(360, 100, 100, 25))
+        self.buttonCancel.setGeometry(QtCore.QRect(360*x_scale, 100*y_scale, 100*x_scale, 25*y_scale))
         self.buttonCancel.setObjectName("buttonCancel")
         self.label = QtWidgets.QLabel(Form)
-        self.label.setGeometry(QtCore.QRect(30, 20, 430, 16))
+        self.label.setGeometry(QtCore.QRect(30*x_scale, 20*y_scale, 430*x_scale, 16*y_scale))
         self.label.setObjectName("label")
 
         self.retranslateUi(Form)
