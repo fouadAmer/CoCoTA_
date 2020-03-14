@@ -5,11 +5,9 @@ This software, named CoCoTA (Quick, **Co**nsistent and **Co**rrect **T**ext **A*
 ## **License**
 This software is relased under an MIT License. If you are using this software for a scientific contribution, please include the following citation:
 
-{
 
-	Fouad Amer, Hui Yi Koh, and Mani Golparvar-Fard (2019), "Quick, Correct, and Consistent Text Annotations: An Active Learning-Based Annotation Workflow and Tool for Sequence Labeling of Construction Schedules", Construction Research Congress 2020, March 8-10, Tempe, Arizona, US.
+>>Fouad Amer, Hui Yi Koh, and Mani Golparvar-Fard (2019), "Quick, Correct, and Consistent Text Annotations: An Active Learning-Based Annotation Workflow and Tool for Sequence Labeling of Construction Schedules", Construction Research Congress 2020, March 8-10, Tempe, Arizona, US.
 
-} 
 
 ## **Requirements**
 
